@@ -7,19 +7,19 @@ import ErrorComp from './Components/ErrorComp';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Projects from './Pages/Projects';
-import Contact, {  } from './Pages/Contact';
+import Contact, { } from './Pages/Contact';
 import MySkill from './Pages/MySkill';
 
 function App() {
   const router = createBrowserRouter([
     {
       path: '/',
-      element: <AppLayout/>,
-      errorElement: <ErrorComp/>,
+      element: <AppLayout />,
+      errorElement: <ErrorComp />,
       children: [
         {
           path: '/',
-          element: <Home /> 
+          element: <Home />
         },
         {
           path: '/about',
@@ -34,20 +34,20 @@ function App() {
           element: <Projects />,
           // loader: getApi
         },
-        // {
-        //   path: '/contact',
-        //   element: <Contact />,
-        //   // action: contactFormData 
-        // }
+        {
+          path: '/contact',
+          element: <Contact />,
+          // action: contactFormData
+        }
       ]
     },
 
   ]);
-  return (<RouterProvider 
-    router={router} future={{v7_startTransition: true, }} 
+  return (<RouterProvider
+    router={router} future={{ v7_startTransition: true, }}
   />
 
-) 
+  )
 }
 
 export default App
