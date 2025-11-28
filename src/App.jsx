@@ -9,6 +9,7 @@ import About from './Pages/About';
 import Projects from './Pages/Projects';
 import Contact, { } from './Pages/Contact';
 import MySkill from './Pages/MySkill';
+import WorkExperience from './Pages/WorkExperience';
 
 function App() {
   const router = createBrowserRouter([
@@ -24,6 +25,10 @@ function App() {
         {
           path: '/about',
           element: <About />
+        },
+        {
+          path: '/journey',
+          element: <WorkExperience />
         },
         {
           path: '/skill',

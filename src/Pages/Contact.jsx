@@ -44,7 +44,7 @@ const Contact = () => {
                 Have a project in mind or just want to say hi? I'd love to hear from you.
               </p>
             </div>
-            <div className="   rounded-2xl shadow-lg p-8 transform transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+            <div className="   rounded-2xl p-8 transform transition-all duration-300 hover:-translate-y-1 border">
               <h3 className="text-2xl font-bold  mb-6">Contact Information</h3>
               <div className="space-y-2">
                 <div className="flex items-start space-x-4">
@@ -78,18 +78,10 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-
-            {/* Decorative Element or Additional Content */}
-            {/* <div className="relative h-64 rounded-2xl overflow-hidden shadow-lg hidden lg:block group">
-              <div className="absolute inset-0 bg-gradient-to-br from-teal-500 to-purple-600 opacity-90 group-hover:scale-110 transition-transform duration-700"></div>
-              <div className="absolute inset-0 flex items-center justify-center p-8 text-center">
-                <div className="text-white text-xl font-medium italic">"The only way to do great work is to love what you do."</div>
-              </div>
-            </div> */}
           </div>
 
           {/* Form Section */}
-          <div className="bg-white dark-theme:bg-gray-800 rounded-2xl shadow-xl p-8 lg:p-10 relative overflow-hidden">
+          <div className="bg-white dark-theme:bg-gray-800 rounded-2xl border  p-8 lg:p-10 relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-teal-400 via-purple-500 to-orange-500"></div>
 
             <form onSubmit={handleSubmit} className="space-y-6 relative ">
