@@ -90,42 +90,42 @@ const Projects = () => {
                     <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-x-8'  >
                       <div className="ui-porject-card mb-20 ">
                         <a href='https://reachbhutan.com/' target='_blank'>
-                          <img src={hotel} alt="alpha automation" />
+                          <img src={hotel} alt="Reach Bhutan Hotel" loading="lazy" />
                         </a>
                       </div>
                       <div className="ui-porject-card mb-20 ">
                         <a href='https://shengfamover.com/' target='_blank'>
-                          <img src={mover} alt="alpha automation" />
+                          <img src={mover} alt="Shengfa Mover" loading="lazy" />
                         </a>
                       </div>
                       <div className="ui-porject-card mb-20 ">
                         <a href='https://afsontravels.com/' target='_blank'>
-                          <img src={afson} alt="alpha automation" />
+                          <img src={afson} alt="Afson Travels" loading="lazy" />
                         </a>
                       </div>
                       <div className="ui-porject-card mb-20 ">
                         <a href='https://www.onecalangute.com/' target='_blank'>
-                          <img src={one} alt="alpha automation" />
+                          <img src={one} alt="One Calangute" loading="lazy" />
                         </a>
                       </div>
                       <div className="ui-porject-card mb-20 ">
                         <a href='https://hodophileholidays.com/' target='_blank'>
-                          <img src={holiday} alt="alpha automation" />
+                          <img src={holiday} alt="Hodophile Holidays" loading="lazy" />
                         </a>
                       </div>
                       <div className="ui-porject-card mb-20 ">
                         <a href='https://alphaautomation.org/' target='_blank'>
-                          <img src={alpha} alt="alpha automation" />
+                          <img src={alpha} alt="Alpha Automation" loading="lazy" />
                         </a>
                       </div>
                       <div className="ui-porject-card mb-20 ">
                         <a href='https://seoinmalaysia.com/' target='_blank'>
-                          <img src={seoMalesiya} alt="alpha automation" />
+                          <img src={seoMalesiya} alt="SEO in Malaysia" loading="lazy" />
                         </a>
                       </div>
                       <div className="ui-porject-card mb-20 ">
                         <a href='https://sevenflorist.com.my/' target='_blank'>
-                          <img src={sevenFolorist} alt="alpha automation" />
+                          <img src={sevenFolorist} alt="Seven Florist" loading="lazy" />
                         </a>
                       </div>
                     </div>
