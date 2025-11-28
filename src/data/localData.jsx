@@ -1,7 +1,7 @@
 
 import countryList from '../images/work/bizaario.png'
-import toDoApp from '../images/work/toDoApp.png'
-import expences from '../images/work/expences.png'
+import aeturn from '../images/work/aeturn.png'
+import aaiena from '../images/work/expences.png'
 // import deliveryManagment from '../images/work/delivery-site.png'
 // import seoMalesiya from '../images/work/seoMalesiya.png'
 
@@ -29,33 +29,39 @@ export const projectData = [
 
   {
     id: 2,
-    projectImage: expences,
-    projectName: "Track Your Daily Expences",
-    desc: 'This Application helps track your daily expenses. You can sort records by amount. The Data have been saved in localStorage.',
+    projectImage: aeturn,
+    projectName: "AETURN",
+    desc: 'AETURN is a technology-driven company that delivers healthcare-focused digital solutions — from telemedicine and EMR/PHR systems to medical-tourism support, road-safety and fleet-tracking services. They aim to “bring solutions which impact lives,” by combining modern tools like AI/ML with a globally minded, collaborative approach.',
     usedTech: ['ReactJs',
       'Tailwind CSS',
-      'LocalStorage',
-      'Shorting'
-    ],
-    features: ['Shorting [A-Z] - [Z-A]',
-      'Advance Form Validation',
+
 
     ],
-    liveURL: 'https://expencereport.netlify.app/',
-    sourceCode: 'https://github.com/deepakgitofficial/Form_in_react_01/tree/react_form_V_1.02',
+    features: ['AI- & AR-powered sizing & body-measurement software',
+      'Virtual try-on / virtual-trial rooms',
+      "Digital fashion & metaverse-ready garments",
+      "Omnichannel & scalable retail solutions for brands"
+
+    ],
+    liveURL: 'https://www.aeturn.com/',
+    // sourceCode: 'https://github.com/deepakgitofficial/Form_in_react_01/tree/react_form_V_1.02',
   },
   {
     id: 3,
-    projectImage: toDoApp,
-    projectName: "Daily Routne Time Table",
-    desc: 'I have Developet this App in React Js, and store data localy in JSON format',
-    usedTech: ['ReactJs',
-      'Tailwind',
+    projectImage: aaiena,
+    projectName: "Aaiena",
+    desc: 'Aaiena is an AI-powered fashion-retail platform that helps brands deliver personalized, immersive shopping experiences through technologies like augmented reality (AR), mixed reality, and 3D virtual-fitting solutions. It aims to solve common apparel - shopping problems — such as size / fit mismatches, high return rates, and poor online shopping confidence — by enabling realistic virtual try-ons, fit predictions, and data - driven product recommendations.',
+    usedTech: ['Wordpress ',
+      'PhP',
       'CSS',
-      'JSON API',
+      'Js',
     ],
-    // liveURL: '',
-    sourceCode: 'https://github.com/deepakgitofficial/CURC_Operation_API',
+    liveURL: 'https://aaiena.com/',
+    features: ['Multidisciplinary tech-enabled services across sectors',
+      'Focus on public health & medical tourism',
+      "Technology-driven approach",
+      "India-based contact & support presence"
+    ],
   },
 
 ]

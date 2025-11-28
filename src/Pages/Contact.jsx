@@ -29,10 +29,8 @@ const Contact = () => {
   }
 
   return (
-    <div className="min-h-screen   py-12 px-4 sm:px-6 lg:px-8 transition-colors duration-300">
+    <div className="py-12 px-4 sm:px-6 lg:px-8 ">
       <div className="container">
-
-
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           {/* Contact Info Section */}
           <div className="space-y-8 lg:pr-8">
@@ -73,7 +71,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-gray-900 ">Phone</h4>
-                    <div className="text-gray-600 ">+91 81716 54421</ div>
+                    <div className="text-gray-500">+91 81716 54421</ div>
                   </div>
                 </div>
               </div>
@@ -114,6 +112,31 @@ const Contact = () => {
                 />
                 <ValidationError prefix="Email" field="email" errors={state.errors} className="text-red-500 text-sm mt-1" />
               </div>
+              <div>
+                <label
+                  htmlFor={fId + 'mobile'}
+                  className="block text-sm font-medium text-gray-700 mb-2"
+                >
+                  Mobile Number
+                </label>
+
+                <input
+                  type="text"
+                  id={fId + 'mobile'}
+                  name="mobile"
+                  className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 dark-theme:border-gray-600 text-gray-900 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-all duration-200 outline-none"
+                  placeholder="+91 98765 43210"
+                  required
+                />
+
+                <ValidationError
+                  prefix="Mobile"
+                  field="mobile"
+                  errors={state.errors}
+                  className="text-red-500 text-sm mt-1"
+                />
+              </div>
+
 
               <div>
                 <label htmlFor={fId + 'message'} className="block text-sm font-medium text-gray-700  mb-2">

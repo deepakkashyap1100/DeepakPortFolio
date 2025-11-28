@@ -8,8 +8,8 @@ import cv from "../images/cv.pdf";
 import { IoMdDownload } from "react-icons/io";
 const Hero = () => {
   return (
-    <section className='hero'>
-      <div className='container mx-auto py-5'>
+    <section className='hero '>
+      <div className='container  pt-5'>
         <div className="flex md:flex-row flex-col gap-4">
           <div className='md:w-4/5 w-full'>
             <p className="text-lg text-gray-600 font-medium">Hi, I am</p>
@@ -20,7 +20,7 @@ const Hero = () => {
 
           </div>
           <div className='  md:w-1/5 w-full'>
-            <div className="dp-imgae md:ms-auto">
+            <div className="dp-imgae md:ms-auto ">
               <img src={profile} alt="" />
             </div>
             <div className='social-icons mt-4 flex md:justify-end'>
@@ -32,7 +32,7 @@ const Hero = () => {
         </div>
         <div className='flex md:flex-row flex-col gap-4 mt-4'>
           <div className=' max-w-44 '>
-            <a href='mailto:deepakkashyap1100@gmail.com' className='text-white bg-teal-600 py-2.5 px-2 text-center rounded-md flex align-center'> <IoMdMailUnread className='me-2' size={25} />Contact Me</a>
+            <a href='mailto:deepakkashyap1100@gmail.com' className='text-white  animate-pulse animate-delay-900 bg-teal-600 py-2.5 px-2 text-center rounded-md flex align-center'> <IoMdMailUnread className='me-2' size={25} />Contact Me</a>
           </div>
           <div className=' max-w-48 '>
             <a href={cv} target='_blank' className='text-white bg-pink-600 py-2.5 px-2 text-center rounded-md flex align-center'> <IoMdDownload className='me-2' size={25} />Download CV</a>

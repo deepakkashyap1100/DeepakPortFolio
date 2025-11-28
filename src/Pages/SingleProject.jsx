@@ -26,7 +26,7 @@ const SingleProject = ({ projectName, projectImage, desc, liveURL, sourceCode, u
             </div>
             <h5 className='underline underline-offset-8 pb-2'>{projectName}</h5>
             <p>{desc}</p>
-            <p className='pt-3 mb-1 font-semibold '>Developed In</p>
+            <p className='pt-3 mb-1 font-semibold '>Tech Stack</p>
             <div className="use-tech flex  gap-2 flex-wrap">
               {usedTechData.map((el, i) => <div key={i}>{el}</div>)}
             </div>
