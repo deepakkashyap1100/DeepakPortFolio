@@ -29,7 +29,7 @@ const Contact = () => {
   }
 
   return (
-    <div className="py-12 px-4 sm:px-6 lg:px-8 ">
+    <div className="py-12  ">
       <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           {/* Contact Info Section */}
@@ -42,7 +42,7 @@ const Contact = () => {
                 Have a project in mind or just want to say hi? I'd love to hear from you.
               </p>
             </div>
-            <div className="   rounded-2xl p-8 transform transition-all duration-300 hover:-translate-y-1 border">
+            <div className="   rounded-2xl md:p-8 p-4 transform transition-all duration-300 hover:-translate-y-1 border">
               <h3 className="text-2xl font-bold  mb-6">Contact Information</h3>
               <div className="space-y-2">
                 <div className="flex items-start space-x-4">
