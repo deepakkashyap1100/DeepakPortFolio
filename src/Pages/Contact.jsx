@@ -8,9 +8,9 @@ const Contact = () => {
 
   if (state.succeeded) {
     return (
-      <div className="min-h-[80vh] flex items-center justify-center px-4 bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
-        <div className="max-w-md w-full bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 text-center transform transition-all duration-500 hover:scale-105">
-          <div className="w-20 h-20 bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center mx-auto mb-6">
+      <div className="min-h-[80vh] flex items-center justify-center px-4 bg-gray-50 dark-theme:bg-gray-900 transition-colors duration-300">
+        <div className="max-w-md w-full bg-white dark-theme:bg-gray-800 rounded-2xl shadow-xl p-8 text-center transform transition-all duration-500 hover:scale-105">
+          <div className="w-20 h-20 bg-green-100 dark-theme:bg-green-900 rounded-full flex items-center justify-center mx-auto mb-6">
             <FaPaperPlane className="text-3xl text-green-600 dark:text-green-400" />
           </div>
           <h2 className="text-3xl font-bold text-gray-900  mb-4">Message Sent!</h2>
@@ -30,45 +30,46 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen   py-12 px-4 sm:px-6 lg:px-8 transition-colors duration-300">
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900  mb-4 tracking-tight">
-            Get in <span className="text-teal-600 dark:text-teal-400">Touch</span>
-          </h1>
-          <div className="text-lg text-gray-600  max-w-2xl mx-auto">
-            Have a project in mind or just want to say hi? I'd love to hear from you.
-          </div>
-        </div>
+      <div className="container">
+
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           {/* Contact Info Section */}
           <div className="space-y-8 lg:pr-8">
-            <div className="bg-white  rounded-2xl shadow-lg p-8 transform transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
-              <h3 className="text-2xl font-bold text-gray-900  mb-6">Contact Information</h3>
-              <div className="space-y-6">
+            <div className=" mb-16">
+              <h1 className="text-4xl md:text-5xl font-bold  mb-4 tracking-tight">
+                Get in <span className="text-teal-600 dark:text-teal-400">Touch</span>
+              </h1>
+              <p className="text-lg text-gray-600  max-w-2xl mx-auto">
+                Have a project in mind or just want to say hi? I'd love to hear from you.
+              </p>
+            </div>
+            <div className="   rounded-2xl shadow-lg p-8 transform transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+              <h3 className="text-2xl font-bold  mb-6">Contact Information</h3>
+              <div className="space-y-2">
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-teal-100 dark:bg-teal-900/30 rounded-full flex items-center justify-center">
-                    <FaEnvelope className="text-xl text-teal-600 dark:text-teal-400" />
+                  <div className="flex-shrink-0 w-12 h-12 bg-teal-100 dark-theme:bg-teal-900/30 rounded-full flex items-center justify-center">
+                    <FaEnvelope className="text-xl text-teal-600 dark-theme:text-teal-400" />
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-gray-900 ">Email</h4>
-                    <div className="text-gray-600 ">deepakkashyap1100@gmail.com</div>
+                    <p className="text-gray-600 ">deepakkashyap1100@gmail.com</p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-full flex items-center justify-center">
-                    <FaMapMarkerAlt className="text-xl text-purple-600 dark:text-purple-400" />
+                  <div className="flex-shrink-0 w-12 h-12 bg-purple-100 dark-theme:bg-purple-900/30 rounded-full flex items-center justify-center">
+                    <FaMapMarkerAlt className="text-xl text-purple-600 dark-theme:text-purple-400" />
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-gray-900 ">Location</h4>
-                    <div className="text-gray-600 ">India</div>
+                    <p className="text-gray-600 ">India</p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-orange-100 dark:bg-orange-900/30 rounded-full flex items-center justify-center">
-                    <FaPhone className="text-xl text-orange-600 dark:text-orange-400" />
+                  <div className="flex-shrink-0 w-12 h-12 bg-orange-100 dark-theme:bg-orange-900/30 rounded-full flex items-center justify-center">
+                    <FaPhone className="text-xl text-orange-600 dark-theme:text-orange-400" />
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-gray-900 ">Phone</h4>
@@ -88,7 +89,7 @@ const Contact = () => {
           </div>
 
           {/* Form Section */}
-          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 lg:p-10 relative overflow-hidden">
+          <div className="bg-white dark-theme:bg-gray-800 rounded-2xl shadow-xl p-8 lg:p-10 relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-teal-400 via-purple-500 to-orange-500"></div>
 
             <form onSubmit={handleSubmit} className="space-y-6 relative ">
@@ -100,7 +101,7 @@ const Contact = () => {
                   type="text"
                   id={fId + 'name'}
                   name="username"
-                  className="w-full px-4 py-3 rounded-lg bg-gray-50  border border-gray-200 dark:border-gray-600 text-gray-900  focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-all duration-200 outline-none"
+                  className="w-full px-4 py-3 rounded-lg bg-gray-50  border border-gray-200 dark-theme:border-gray-600 text-gray-900  focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-all duration-200 outline-none"
                   placeholder="John Doe"
                   required
                 />
@@ -115,7 +116,7 @@ const Contact = () => {
                   type="email"
                   id={fId + 'email'}
                   name="email"
-                  className="w-full px-4 py-3 rounded-lg bg-gray-50  border border-gray-200 dark:border-gray-600 text-gray-900  focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-all duration-200 outline-none"
+                  className="w-full px-4 py-3 rounded-lg bg-gray-50  border border-gray-200 dark-theme:border-gray-600 text-gray-900  focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-all duration-200 outline-none"
                   placeholder="john@example.com"
                   required
                 />
@@ -130,7 +131,7 @@ const Contact = () => {
                   id={fId + 'message'}
                   name="message"
                   rows={3}
-                  className="w-full px-4 py-3 rounded-lg bg-gray-50  border border-gray-200 dark:border-gray-600 text-gray-900  focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-all duration-200 outline-none resize-none"
+                  className="w-full px-4 py-3 rounded-lg bg-gray-50  border border-gray-200 dark-theme:border-gray-600 text-gray-900  focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-all duration-200 outline-none resize-none"
                   placeholder="Tell me about your project..."
                   required
                 />
