@@ -8,10 +8,9 @@
   @import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto&family=Source+Sans+Pro:ital@1&display=swap')
 }
 
-html {
-  /* font-size: 62.5%; */
+/* html {
   scroll-behavior: auto;
-}
+} */
 
 body {
   font-family: var(--ff-primary);
