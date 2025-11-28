@@ -4,14 +4,14 @@ import ListItemText from '@mui/material/ListItemText';
 import Collapse from '@mui/material/Collapse';
 import ExpandLess from '@mui/icons-material/ExpandLess';
 import ExpandMore from '@mui/icons-material/ExpandMore';
-import alpha from '../images/UI/alpha.png'
-import mover from '../images/UI/mover.png'
-import afson from '../images/UI/afson.png'
-import holiday from '../images/UI/holiday.png'
-import hotel from '../images/UI/hotel.png'
-import one from '../images/UI/one.png'
-import sevenFolorist from '../images/UI/sevenFolorist.png'
-import seoMalesiya from '../images/UI/seoMalesiya.png'
+import alpha from '../images/UI/alpha.webp'
+import mover from '../images/UI/mover.webp'
+import afson from '../images/UI/afson.webp'
+import holiday from '../images/UI/holiday.webp'
+import hotel from '../images/UI/hotel.webp'
+import one from '../images/UI/one.webp'
+import sevenFolorist from '../images/UI/sevenFolorist.webp'
+import seoMalesiya from '../images/UI/seoMalesiya.webp'
 import { projectData } from '../data/localData'
 import SingleProject from './SingleProject'
 import { FaGlobe } from "react-icons/fa";

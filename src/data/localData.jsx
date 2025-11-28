@@ -1,7 +1,7 @@
 
-import countryList from '../images/work/bizaario.png'
-import aeturn from '../images/work/aeturn.png'
-import aaiena from '../images/work/expences.png'
+import countryList from '../images/work/bizaario.webp'
+import aeturn from '../images/work/aeturn.webp'
+import aaiena from '../images/work/expences.webp'
 // import deliveryManagment from '../images/work/delivery-site.png'
 // import seoMalesiya from '../images/work/seoMalesiya.png'
 
