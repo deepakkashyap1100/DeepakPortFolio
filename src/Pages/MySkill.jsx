@@ -31,7 +31,7 @@ const skills = [
   { name: "AJAX", img: ajax },
   { name: "Bootstrap", icon: <FaBootstrap size={44} className="text-blue-800" /> },
   { name: "JQuery", icon: <BiLogoJquery size={44} className="text-pink-600" /> },
-  { name: "JSON API", icon: <SiTypescript size={40} className="text-teal-600" /> },
+  { name: "Type Script", icon: <SiTypescript size={40} className="text-teal-600" /> },
   { name: "Git", icon: <FaGitAlt size={44} className="text-orange-600" /> },
   { name: "WordPress", icon: <FaWordpress size={44} className="text-sky-600" /> },
   { name: "Photoshop", icon: <DiPhotoshop size={44} className="text-blue-950" /> },
@@ -60,7 +60,7 @@ const MySkill = () => {
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="px-3 py-1 bg-gray-100 flex items-center gap-3 rounded-md hover:shadow-md transition"
+              className="px-3 py-1 bg-gray-100 flex items-center gap-3 rounded-md hover:shadow-md transition min-h-[54px]"
             >
               {skill.icon ? (
                 skill.icon

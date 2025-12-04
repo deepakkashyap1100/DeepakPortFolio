@@ -108,7 +108,7 @@ const WorkExperience = () => {
                       </div>
 
                       {/* Period Badge */}
-                      <div className="inline-flex items-center gap-2 px-5 py-3 bg-gradient-to-r from-gray-50 to-gray-100 dark-theme:from-gray-700 dark-theme:to-gray-600 rounded-full border-2 border-gray-200 dark-theme:border-gray-600 shadow-sm">
+                      <div className="inline-flex items-center gap-2 px-3 py-3 bg-gradient-to-r from-gray-50 to-gray-100 dark-theme:from-gray-700 dark-theme:to-gray-600 rounded-full border-2 border-gray-200 dark-theme:border-gray-600 shadow-sm">
                         <FaCalendarAlt className={`text-sm ${exp.isCurrent ? 'text-teal-600 dark-theme:text-teal-400' : 'text-purple-600 dark-theme:text-purple-400'}`} />
                         <span className="font-bold text-gray-800 dark-theme:text-white text-sm lg:text-base whitespace-nowrap">
                           {exp.period}

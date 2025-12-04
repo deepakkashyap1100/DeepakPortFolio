@@ -9,9 +9,9 @@ const SingleProject = ({ projectName, projectImage, desc, liveURL, sourceCode, u
   return (
     <>
       <div className="project ">
-        <div className="project-img ">
+        <div className="project-img md:mt-0 mt-4 ">
           <a href={liveURL} target='_blank' >
-            <img src={projectImage} alt={projectName} loading="lazy" />
+            <img src={projectImage} alt={projectName} loading="lazy" className='rounded-md' />
           </a>
         </div>
         <div className={`project-details ${isBehind ? 'hide' : ''}`}>

@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <>
       <section className="parent" style={{ backgroundColor: 'rgb(0, 163, 152)' }} >
-          {/* animation-style */}
+        {/* animation-style */}
 
         <div className="wave-head">
           <div>
@@ -29,27 +29,27 @@ const Footer = () => {
 
         <div className="container pt-4 ">
           <div className="grid lg:grid-cols-3 grid-col-1 ">
-            <div className="lg:col-span-2  text-white p-4">
+            {/* <div className="lg:col-span-2  text-white p-4">
               <h3>Social Links</h3>
 
-              <div className='social-icons mt-4'>
-                <a href="https://www.linkedin.com/in/deepak-kashyap-059225234/" target="_blank"><FaLinkedinIn className='text-teal-700' size={20} /></a>
-                <a href="mailto:deepakkashyap1100@gmail.com"><IoMdMailUnread className='text-teal-700' size={25} /></a>
-                <a href="https://github.com/deepakgitoffical"><FaGithub className='text-teal-700' size={20} /></a>
+              <div className='social-icons mt-4 text-white' >
+                <a href="https://www.linkedin.com/in/deepak-kashyap-059225234/" target="_blank"><FaLinkedinIn className='text-white' size={20} /></a>
+                <a href="mailto:deepakkashyap1100@gmail.com"><IoMdMailUnread className='text-white' size={25} /></a>
+                <a href="https://github.com/deepakgitoffical"><FaGithub className='text-white' size={20} /></a>
               </div>
-            </div>
+            </div> */}
             <div className=" text-white p-4">
               <h3>Contact Details</h3>
               <p>City: New Delhi, India</p>
               <p>Contact No: 81716 54421</p>
-              <p className="text-gray-300">Email: <a href="mailto:deepakkashyap1100@gmail.com" className="text-white">deepakkashyap1100@gmail.com</a></p> 
-            </div> 
+              <p className="text-gray-300">Email: <a href="mailto:deepakkashyap1100@gmail.com" className="text-white">deepakkashyap1100@gmail.com</a></p>
+            </div>
           </div>
         </div>
-      <hr className="text-white"/>
-      <div className="container p-2">
+        <hr className="text-white" />
+        <div className="container p-2">
           <p className="text-center text-white text-sm"> © 2025 made by: <a href="" className='text-yellow-400'>Deepak Kashyap</a></p>
-      </div>
+        </div>
       </section>
     </>
   )
