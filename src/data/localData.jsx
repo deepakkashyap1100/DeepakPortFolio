@@ -2,6 +2,7 @@
 import countryList from '../images/work/bizaario.webp'
 import aeturn from '../images/work/aeturn.webp'
 import aaiena from '../images/work/expences.webp'
+import betterlyf from '../images/work/betterlyf.webp'
 // import deliveryManagment from '../images/work/delivery-site.png'
 // import seoMalesiya from '../images/work/seoMalesiya.png'
 
@@ -61,6 +62,26 @@ export const projectData = [
       'Focus on public health & medical tourism',
       "Technology-driven approach",
       "India-based contact & support presence"
+    ],
+  },
+  {
+    id: 4,
+    projectImage: betterlyf,
+    projectName: "betterlyf",
+    desc: 'BetterLYF is an online counseling and mental-wellness platform offering professional support for stress, anxiety, depression, relationships, self-esteem, and personal challenges. Users can connect with certified counselors through chat, phone, or video sessions for convenient and confidential therapy. The platform also provides self-help programs and tools to improve emotional resilience, build confidence, and manage daily stress. With a focus on accessibility and privacy, BetterLYF aims to make mental-health support more affordable and approachable for individuals and organizations through its wellness and employee assistance programs.',
+    usedTech: ['Next.js ',
+      'Node.js',
+      'Tailwind CSS',
+      'TypeScript',
+    ],
+    liveURL: 'https://betterlyf.com',
+    features: [
+      "Online counseling via chat, call, or video for flexible and easy access.",
+      "Certified and trained psychologists providing professional mental - health support.",
+      "Support for stress, anxiety, depression, relationships, and self- esteem issues.",
+      "Confidential and anonymous sessions to ensure complete privacy.",
+      "Affordable therapy plans compared to traditional offline counseling.",
+      " Self - help tools and guided programs for emotional growth and resilience."
     ],
   },
 
