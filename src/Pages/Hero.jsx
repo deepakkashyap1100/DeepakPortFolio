@@ -32,11 +32,11 @@ const Hero = () => {
         </div>
         <div className='flex md:flex-row flex-col gap-4 mt-4'>
           <div className=' max-w-44 '>
-            <a href='mailto:deepakkashyap1100@gmail.com' className='text-white  animate-pulse animate-delay-900 bg-teal-600 py-2.5 px-2 text-center rounded-md flex align-center'> <IoMdMailUnread className='me-2' size={25} />Contact Me</a>
+            <a href='contact' className='text-white  animate-pulse animate-delay-900 bg-teal-600 py-2.5 px-2 text-center rounded-md flex align-center'> <IoMdMailUnread className='me-2' size={25} />Contact Me</a>
           </div>
-          <div className=' max-w-48 '>
+          {/* <div className=' max-w-48 '>
             <a href={cv} target='_blank' className='text-white bg-pink-600 py-2.5 px-2 text-center rounded-md flex align-center'> <IoMdDownload className='me-2' size={25} />Download CV</a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
